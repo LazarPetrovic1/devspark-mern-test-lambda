@@ -1,5 +1,4 @@
 const User = require('../models/User');
-const connectDB = require('../config/db');
 
 async function getUserByUsername(username) {
   try {
